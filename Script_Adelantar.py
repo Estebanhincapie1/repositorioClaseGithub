@@ -53,9 +53,8 @@ class Empleado_Hospital(Persona):
     def asignarTurno(self, turno):
         self.__turno = turno
 
-    def verturno(self, turno):
-        return self.__turno
-
+#aqui borre lo que borre
+        
 class Enfermera(Empleado_Hospital):
     def __init__(self):
         # Empleado_Hospital.__init__(self) # Invocando el constructor de la clase padre de la cual esta heredando 
